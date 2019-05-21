@@ -1,9 +1,10 @@
-require('./bootstrap');
+import Vue from 'vue';
+import ScrollLink from './components/ScrollLink';
 
-window.Vue = require('vue');
+window.Vue = Vue;
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('scroll-link', ScrollLink);
 
 new Vue({
-    el: '#app',
+    el: '#app'
 });
