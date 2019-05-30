@@ -1,4 +1,5 @@
 import Vue from 'vue';
+
 import ScrollLink from './components/ScrollLink';
 import Dropdown from './components/Dropdown';
 
