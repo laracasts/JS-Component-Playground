@@ -15,7 +15,8 @@ $examples = [
     'smooth-scroll',
     'context-menu',
     'conditional-visibility',
-    'modal'
+    'modal',
+    'confirmation-button'
 ];
 
 
