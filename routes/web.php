@@ -25,3 +25,7 @@ collect($examples)->each(function ($uri) {
         return view($uri);
     });
 });
+
+Route::post('confirmation-button', function () {
+    return 'Form submitted';
+});
