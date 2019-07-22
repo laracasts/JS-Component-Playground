@@ -7,6 +7,8 @@ import Dropdown from './components/Dropdown';
 import Visible from './components/Visible';
 import ConfirmButton from './components/ConfirmButton';
 import ConfirmDialog from './components/ConfirmDialog';
+import Tabs from './components/Tabs';
+import Tab from './components/Tab';
 
 window.Vue = Vue;
 
@@ -17,6 +19,8 @@ Vue.component('dropdown', Dropdown);
 Vue.component('visible', Visible);
 Vue.component('confirm-button', ConfirmButton);
 Vue.component('confirm-dialog', ConfirmDialog);
+Vue.component('tabs', Tabs);
+Vue.component('tab', Tab);
 
 new Vue({
     el: '#app',

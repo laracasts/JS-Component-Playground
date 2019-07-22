@@ -16,7 +16,8 @@ $examples = [
     'context-menu',
     'conditional-visibility',
     'modal',
-    'confirmation-button'
+    'confirmation-button',
+    'tabs'
 ];
 
 
